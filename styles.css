@@ -1,0 +1,104 @@
+/* Light Blue #015385, Blue #376D89, Blue Grey #4A7A93, Dark Blue #003650, Green #5b7b24, Dark Green #47601c, Dark Grey #666 */
+html,* { padding:0;margin:0; }
+h1, h2, h3, h4, h5, h6 { font-family: sans-serif;margin: .5em 0 1em;color: #003650; }
+h1 { font-size: 1.750em; line-height: 32px; }
+p { margin: .5em 0 1em; }
+.disclosure { font-size: .8em; }
+header, 
+footer { 
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+header { background-color:#376D89; }
+.header-logo,
+.footer-logo {
+	padding: .625em 2.5%;
+	width: 58%;
+}
+header nav { padding: .625em 2.5%; }
+header ul {
+	display:flex;
+	justify-content:flex-end;
+}
+header nav ul li { display: block; }
+header nav a:link,
+header nav a:visited  {
+	display:block;
+	font-family: sans-serif;
+	font-size: .8em;
+	color: #003650;
+	padding: .313em .625em;
+	background-color: #D0DEEB;
+	text-align: center;
+	margin: .438em 1%;
+	border: 1px solid #003650;
+}
+header nav a:hover,
+header nav a:focus  {
+	color: #fff;
+	background-color: #005581;
+	border: 1px solid #D0DEEB;
+}
+/* Photo by Jari Hytönen on Unsplash, Photo by Nathalie Jolie on Unsplash */
+.hero-image {
+    width: 100%;
+    height: 250px;
+	background-image: url(banner.jpg);
+	background-size: cover;	  
+}
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+}
+article {
+	flex-basis:70%;
+	padding: .625em 2%;
+}
+aside {
+	flex-basis:22%;
+	padding: .625em 2%;
+}
+.ad_container {
+	width: 96%;
+	padding: .625em 2%;
+	text-align: center;
+	margin: .625em 0;
+}
+.ad_container.blue { background-color:#376D89; }
+.ad_container.green { background-color:#5b7b24; }
+.ad_container h3, 
+.ad_container p { color: #fff; }
+.ad_container.blue a:link,
+.ad_container.blue a:visited {
+	display:inline-block;
+	font-family: sans-serif;
+	font-size: .8em;
+	color: #003650;
+	padding: .313em .625em;
+	background-color: #D0DEEB;
+}
+.ad_container.blue a:hover,
+.ad_container.blue a:focus {
+	color: #fff;
+	background-color: #005581;
+}
+.ad_container.green a:link,
+.ad_container.green a:visited {
+	display:inline-block;
+	font-family: sans-serif;
+	font-size: .8em;
+	color: #00500b;
+	padding: .313em .625em;
+	background-color: #D4EBD0;
+}
+.ad_container.green a:hover,
+.ad_container.green a:focus {
+	color: #fff;
+	background-color: #47601c;
+}
+footer { 
+	background-color:#666;
+	color: #fff;
+}
+footer p { padding: .625em 1.25em; }
